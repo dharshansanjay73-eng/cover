@@ -1,0 +1,88 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+    color:rgb(172, 254, 30);
+    color: lightpink;
+    
+}
+.book {
+    width: 618px;
+    height: 1000px;
+    margin: 20px auto;
+    background-image: url("color.png");
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 1px solid rgb(229, 125, 125);
+    color: mintcream;
+    background-color: seashell;
+}
+.header{
+    text-align: left;
+    font-size: 25px;
+    margin-top: 40px;
+    color: lightpink;
+    
+}
+.about {
+    font-size: 18px;
+    font-weight: light;
+    color: light rgb(240, 139, 139);
+    margin-top: 10px;
+    color: rgb(249, 181, 98);
+    
+}
+.quotebox {
+    text-align: center;
+    font-family: italic;
+    background-color: rgb(239, 151, 204);
+    border-left: 5px solid rgb(78, 5, 60);
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+
+.photo{
+    height: 137px;
+    width: 137px;
+    display: flex;
+    padding: 10px;
+}
+
+.authorcontent{
+    display: flex;
+    background-color: rgb(241, 190, 229);
+    
+}
+
+.author{
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.ending{
+    background-color: lightcoral;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+
+.ending h4{
+    color: rgb(250, 250, 28);
+}
+
+.under{
+    margin-left: 20px;
+}
+
+.price{
+    color: rgba(6, 113, 146, 0.86);
+    font-size: 20px;
+    margin-right: 20px;
+}
